@@ -1,0 +1,38 @@
+{
+  "version": "0.0.1",
+  "name": "cordova-plugin-fire-tv",
+  "cordova_name": "CordovaPluginFireTV",
+  "description": "Compatibility plugin for Fire TV / Firestick",
+  "author": "Jakub Szerszen",
+  "contributors":[
+    "Jakub Szerszen <kublikon.apps@gmail.com>"
+  ],
+  "platforms": [
+    "android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kublikon/cordova-plugin-fire-tv.git"
+  },
+  "keywords": [
+    "cordova",
+    "cordova-android",
+    "amazon store",
+    "firestick",
+    "fire tv",
+    "ecosystem:cordova"
+  ],
+  "license": "MIT",
+  "bugs":{
+    "mail":"kublikon_apps@gmail.com",
+    "url":"http://github.com/kublikon/cordova-plugin-fire-tv/issues"
+  },
+  "preferGlobal": false,
+  "private": false
+}

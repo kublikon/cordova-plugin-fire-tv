@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.kublikon.cordova.plugins.cordovapluginfiretv" version="0.0.1">
+  <name>CordovaPluginFireTV</name>
+  <description>Compatibility plugin for Fire TV / Firestick</description>
+  <author email="kublikon.apps@gmail.com" href="http://hughisaacs2.acrylicstyle.com">Jakub Szerszen</author>
+  <license>MIT</license>
+  <keywords>cordova, cordova-android, amazon store, firestick, fire tv, ecosystem:cordova</keywords>
+
+  <engines>
+    <engine name="cordova" version=">=3.0.0" />
+  </engines>
+
+  <platform name="android">
+
+    <config-file target="AndroidManifest.xml" parent="/manifest">
+      <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    </config-file>
+
+    <config-file target="AndroidManifest.xml" parent="/manifest/application/activity/intent-filter">
+      <action android:name="android.intent.action.MAIN"/>
+      <category android:name="android.intent.category.LAUNCHER" />
+    </config-file>
+
+  </platform>
+
+</plugin>
